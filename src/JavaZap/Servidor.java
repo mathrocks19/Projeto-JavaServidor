@@ -63,7 +63,7 @@ public class Servidor {
                                     String currentDateTime = formatter.format(now);
 
                                     // Envia a mensagem com o nome do cliente e data/hora
-                                    // **REPARE QUE O ID DO CLIENTE FOI REMOVIDO DA MENSAGEM**
+
                                     targetOutput.println(nomesClientes.get(clientId) + ": " + currentDateTime + ": " + message);
                                 }
                             }

@@ -20,7 +20,7 @@ public class TelaJavaZap extends JFrame implements ActionListener {
     private JTextArea chatArea;
     private JButton sendButton;
     private Socket clientSocket;
-    private PrintStream outputStream; // Variável para a saída do socket
+    private PrintStream outputStream; //do socket
     private String clientId;
     private String userName; // Armazena o nome do usuário
     private String currentDateTime; // Armazena a data e hora atuais
